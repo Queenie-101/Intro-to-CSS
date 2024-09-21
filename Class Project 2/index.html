@@ -4,18 +4,28 @@
         <head>
             <style>
                 p{
-                    color:azure
+                    color: red
                 }
                 @keyframes colorChange{
-                    from{
-                        colour: red
+                    0%{
+                        color: red;
                     }
-                    to{
-                        color: blue
+                    25%{
+                        color:blue;
+                    }
+                    50%{
+                        color:blueviolet;
+                    }
+                    75%{
+                        color:aquamarine;
+                    }
+                    100%{
+                        color: pink;
                     }
                 }
                 .text{
-                    animation: colorChange 5s infinite change;
+                    animation-name: colorChange;
+                    animation-duration: 5s;
                 }
             </style>
         </head>
@@ -23,6 +33,5 @@
         <body>
            <h1>My top 3 Favourite sports</h1>
         </body>
-        <p>Below are my top 3 favourite sports!</p>
-
+        <p class="text">Below are my top 3 favourite sports!</p>
     </html>
