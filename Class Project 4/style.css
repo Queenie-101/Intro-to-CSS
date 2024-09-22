@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+    color:aliceblue;
+}
+h1{
+    color:aquamarine;
+}
+a{
+    color:blue;
+    text-decoration: none;
+}
+a hover{
+    color: orange;
+}
+ul>li{
+    font-weight: bold;
+}
+ul li:hover{
+    color:aliceblue;
+}
+ul li:before{
+    content: "😊"
+}
+ul li:after{
+    content: "😆"
+}
+p::first-letter{
+    font-size: 200%;
+    color:blanchedalmond;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
