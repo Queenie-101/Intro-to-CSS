@@ -1,0 +1,36 @@
+body{
+    background-color: palevioletred;
+    color:azure;
+}
+h1{
+    color:aquamarine
+}
+a{
+    color:bisque;
+    text-decoration: none
+}
+a:hover{
+    color: rgb(255, 192, 253);
+}
+ul>li{
+    font-weight: bold;
+}
+ul li:hover{
+    color:blueviolet
+}
+ul li:before{
+    content: "🤭";
+}
+ul li:after{
+    content: "🤭"
+}
+a:after{
+    content: "😜"
+}
+p::first-letter{
+    font-size: 200%;
+    color: peachpuff;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
